@@ -16,6 +16,7 @@ opencv-python = "^4.10.0.84"
 torchviz = "^0.0.2"
 optuna = "^4.0.0"
 torchview = "^0.2.6"
+pygifsicle = "^1.1.0"
 
 
 [build-system]

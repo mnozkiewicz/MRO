@@ -2426,6 +2426,19 @@ files = [
 ]
 
 [[package]]
+name = "pygifsicle"
+version = "1.1.0"
+description = "Python package wrapping the gifsicle library for editing and optimizing gifs."
+optional = false
+python-versions = "*"
+files = [
+    {file = "pygifsicle-1.1.0.tar.gz", hash = "sha256:dcef433520ace4c1136dfc7060e77042142a3dbd6bdb6a19bd9149ef5cbe7441"},
+]
+
+[package.extras]
+test = ["pytest", "pytest-cov", "touch", "validate_version_code"]
+
+[[package]]
 name = "pygments"
 version = "2.18.0"
 description = "Pygments is a syntax highlighting package written in Python."
@@ -3429,4 +3442,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "71d8eaa828f70a665a7cc15fd1aaa1d5c3ca5e12768457770923cdc2d365a1cb"
+content-hash = "f32ce018b77fbf5ffc0e1147985748afddb3ca56cc713688ce1f465eda1b470c"
