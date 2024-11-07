@@ -17,6 +17,8 @@ torchviz = "^0.0.2"
 optuna = "^4.0.0"
 torchview = "^0.2.6"
 pygifsicle = "^1.1.0"
+ultralytics = "^8.3.27"
+boto3 = "^1.35.54"
 
 
 [build-system]
